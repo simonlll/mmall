@@ -1,7 +1,6 @@
 package com.mmall.dao;
 
 import com.mmall.pojo.Shipping;
-import com.sun.tools.corba.se.idl.InterfaceGen;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

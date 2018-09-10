@@ -19,6 +19,10 @@ public class Const {
         int ROLE_ADMIN = 1;
     }
 
+    public interface RedisCacheExtime {
+        int REDIS_SESSION_EXTIME = 30 * 60;
+    }
+
     public interface ProductListOrderBy{
         Set<String> PRICE_ASC_DESC = Sets.newHashSet("price_desc", "price_asc");
     }
