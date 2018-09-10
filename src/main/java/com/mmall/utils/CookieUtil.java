@@ -20,6 +20,7 @@ public class CookieUtil {
         cookie.setDomain(COOKIE_DOMAIN);
         cookie.setPath("/"); //这个代表设置在根目录
         cookie.setMaxAge(60 * 60 * 24 * 365); //如果是-1,永久，单位秒；如果maxAge不设置的话，cookie就不会写入硬盘，而是写在内存。只在当前页面有效
+        cookie.setHttpOnly(true); //
         log.info("write cookieName:{}, cookieValue: {}", cookie.getName(), cookie.getValue());
         response.addCookie(cookie);
     }
