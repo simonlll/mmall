@@ -191,7 +191,7 @@ public class ProductManageController {
         String loginToken = CookieUtil.readLoginToken(httpServletRequest);
         if (StringUtils.isEmpty(loginToken)) {
             resultMap.put("success", false);
-            resultMap.put("msg", "用户未登陆，无法获取用户的信息"");
+            resultMap.put("msg", "用户未登陆，无法获取用户的信息");
             return resultMap;
         }
 
