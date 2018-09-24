@@ -3,7 +3,7 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-TOMCAT1
+TOMCAT2
 
 
 springmvc上传文件
